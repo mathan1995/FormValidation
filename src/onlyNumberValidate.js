@@ -48,7 +48,7 @@ class EmptyValidate extends React.Component {
               value={input.value}
               onChange={e => this.handleInputChange(idx, e)}
             />
-            {input.error && <span>{input.error}</span>}
+            {input.error && <span style={{ color: "red" }}>{input.error}</span>}
           </div>
         ))}
       </form>
