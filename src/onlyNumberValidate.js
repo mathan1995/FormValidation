@@ -4,12 +4,7 @@ class EmptyValidate extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      inputs: [
-        { name: "price", value: 0, error: "" },
-        { name: "downP", value: 0, error: "" },
-        { name: "term", value: 0, error: "" },
-        { name: "interest", value: 0, error: "" }
-      ]
+      inputs: [{ name: "price", value: 0, error: "" }]
     };
   }
 
