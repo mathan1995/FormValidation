@@ -8,7 +8,7 @@ import EmptyValidate2 from "./onlyNumberValidate";
 
 class App extends Component {
   render() {
-    return <EmptyValidate2 />;
+    return <Main />;
   }
 }
 

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import EmptyValidate2 from "./onlyNumberValidate";
 import "./App.css";
 
 const emailRegex = RegExp(
@@ -153,6 +154,7 @@ class Test extends Component {
               <button type="submit">Create Account</button>
               <small>Already Have an Account?</small>
             </div>
+            <EmptyValidate2 />
           </form>
         </div>
       </div>
